@@ -6,8 +6,7 @@ import WatchLater from './assets/icons/watchLater.svg';
 
 function Sidebar() {
     return (
-        <main>
-            <div class="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
+
             <aside>
                 <ul className="space-y-2">
                     <li>
@@ -42,8 +41,6 @@ function Sidebar() {
                     </li>
                 </ul>
             </aside>
-        </div>
-        </main>
 
     )
 }
